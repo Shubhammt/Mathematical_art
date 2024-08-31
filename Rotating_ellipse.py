@@ -30,4 +30,4 @@ def update(frame):
     return ax
 
 ani = animation.FuncAnimation(fig=fig, func=update, frames=n, interval=30, blit=False)
-ani.save(filename="Rotating_ellipse.mp4", writer="ffmpeg", fps = 60, dpi=300)
+ani.save(filename="videos/Rotating_ellipse.mp4", writer="ffmpeg", fps = 60, dpi=300)
